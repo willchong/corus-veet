@@ -1,0 +1,78 @@
+header {
+	background-color: #fff;
+	min-height: 160px;
+
+	.container {
+		max-width: 960px;
+
+		.top-logo {
+
+			.amope {
+				display: inline-block;
+				margin-top: 20px;
+				margin-left: 90px;
+				margin-right: 50px;
+			}
+			.pedi-perfect {
+				display: inline-block;
+				margin-top: 10px;
+				margin-right: 105px;
+			}
+			.product {
+				position: absolute;
+				margin-top: 0px;
+				right: 20px;
+				top: 0;
+				margin-right: 0px;
+			}
+		}
+
+	}
+
+	@include breakpoint(medium) {
+
+		.container {
+			.top-logo {
+				.amope {
+					margin-left: 0px;
+				}
+				.product {
+					margin-right: -50px;
+				}
+			}
+		}
+		
+	}
+
+	@include breakpoint(small) {
+		min-height: auto;
+
+		.container {
+
+			.top-logo {
+				text-align: center;
+
+				.amope {
+					display: inline-block;
+					margin: 0;
+					width: 100px;
+				}
+				.pedi-perfect {
+					display: inline-block;
+					margin: 0;
+					width: 100px;
+				}
+				.product {
+					display: inline-block;
+					position: relative;
+					margin: 0;
+					// margin: 0 auto;
+					width: 100px;
+				}
+			}
+
+		}
+	}
+
+}
+

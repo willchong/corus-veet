@@ -1,0 +1,19 @@
+@import "libs/normalize",
+        "libs/bootstrap",
+        "libs/slick",
+        "libs/slick-theme",
+        "partials/constants",
+        "partials/fonts",
+        "partials/header",
+        "partials/footer",
+        "partials/homepage";
+
+
+body {
+    padding: 0px;
+	font-family: "Champagne-Limousines", Arial, sans-serif;
+}
+
+.emphasis {
+	font-family: "Champagne-Limousines-Italic", Arial, sans-serif;
+}

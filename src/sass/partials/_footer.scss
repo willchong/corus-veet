@@ -1,0 +1,52 @@
+footer {
+	padding-bottom: 80px;
+
+	.container {
+		max-width: 960px;
+
+		.footer-logo {
+			max-width: 100%;
+		}
+
+		.buy-prompt {
+			font-family: Georgia, "Times New Roman", serif;
+			text-align: center;
+			color: $teal;
+			font-size: 23px;
+			margin-top: 16px;
+		}
+
+		.left {
+			text-align: right;
+		}
+
+		.right {
+			text-align: left;
+		}
+
+		.center {
+			text-align: center;
+		}
+	}
+
+	@include breakpoint(small) {
+	
+		.container {
+
+			.left {
+				text-align: center;
+			}
+
+			.right {
+				text-align: center;
+			}
+
+			.center {
+				text-align: center;
+			}
+		}
+
+		
+
+	}
+}
